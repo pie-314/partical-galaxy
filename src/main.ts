@@ -80,7 +80,7 @@ function animate() {
     // const force = 50 / (dist * dist + 100);
     // const force = 0.005 / (dist + 20);
 
-    const hue = 220 + dist * 0.2;
+    const hue =220 + dist * 0.2;
 
     ctx.fillStyle = `hsl(${hue}, 100%, 70%)`;
 
